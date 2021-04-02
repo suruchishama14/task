@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/user.png">
+	<link rel="icon" type="image/png" href="/static/img/user.png">
+    <title>online class</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for x in data %}
+{{ x.name }}
+    {{ x.date }}
+    {{ x.time }}
+    {{ x.subject }}
+{% endfor %}
+
+  </body>
+</html>
